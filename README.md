@@ -39,23 +39,28 @@ E-Commerce-Sales-Analytics-Dashboard
 │   └── ecommerce_sales_cleaned.csv
 │
 ├── sql
-│   └── ecommerce.sql
+│   ├── analysis_queries.sql
+│   └── .gitkeep
 │
 ├── python
-│   ├── sql.py
-│   └── autoeda.py
+│   ├── eda.py
+│   ├── auto_eda.py
+│   └── .gitkeep
 │
 ├── powerbi
-│   └── E-Commerce Report.pbix
+│   ├── Ecommerce_Sales_Analytics_Dashboard.pbix
+│   └── .gitkeep
 │
 ├── reports
-│   └── EDA_Report.html
+│   ├── EDA_Report.html
+│   └── .gitkeep
 │
 ├── images
-│   ├── dashboard_page1.png
-│   ├── dashboard_page2.png
-│   ├── dashboard_page3.png
-│   └── dashboard_page4.png
+│   ├── page1_overview.png
+│   ├── page2_product_analysis.png
+│   ├── page3_regional_analysis.png
+│   ├── page4_executive_insights.png
+│   └── .gitkeep
 │
 └── README.md
 ```
