@@ -1,12 +1,22 @@
-# E-Commerce Sales Analytics Dashboard
+# 📊 E-Commerce Sales Analytics Dashboard
 
-Interactive Power BI dashboard for analyzing e-commerce sales data using SQL, Python, and Power BI.
+An end-to-end Data Analytics project that analyzes e-commerce sales data using **SQL, Python, and Power BI** to generate business insights through an interactive dashboard.
 
-## Project Overview
+---
 
-This project analyzes e-commerce sales data to identify business insights related to sales, profit, products, categories, and regions. The workflow includes SQL for data storage, Python for data preprocessing and EDA, and Power BI for interactive dashboard creation.
+## 📌 Project Overview
 
-## Tech Stack
+This project demonstrates the complete data analytics workflow:
+
+- Store and query sales data using MySQL
+- Perform data cleaning and exploratory data analysis (EDA) using Python
+- Generate automated EDA reports using Sweetviz
+- Build an interactive dashboard in Power BI
+- Extract meaningful business insights for decision making
+
+---
+
+## 🛠️ Tech Stack
 
 - Power BI
 - Python
@@ -14,35 +24,73 @@ This project analyzes e-commerce sales data to identify business insights relate
 - Pandas
 - NumPy
 - Matplotlib
+- Seaborn
 - Sweetviz
 
-## Dashboard Pages
+---
 
-### 1. E-Commerce Analytics
+## 📂 Repository Structure
+
+```
+E-Commerce-Sales-Analytics-Dashboard
+│
+├── data
+│   ├── ecommerce_sales_data.csv
+│   └── ecommerce_sales_cleaned.csv
+│
+├── sql
+│   └── ecommerce.sql
+│
+├── python
+│   ├── sql.py
+│   └── autoeda.py
+│
+├── powerbi
+│   └── E-Commerce Report.pbix
+│
+├── reports
+│   └── EDA_Report.html
+│
+├── images
+│   ├── dashboard_page1.png
+│   ├── dashboard_page2.png
+│   ├── dashboard_page3.png
+│   └── dashboard_page4.png
+│
+└── README.md
+```
+
+---
+
+## 📈 Dashboard Pages
+
+### 1️⃣ E-Commerce Analytics
 - KPI Cards
 - Monthly Sales Trend
 - Sales by Category
 - Profit by Category
 - Regional Sales Distribution
 
-### 2. Product Analytics
+### 2️⃣ Product Analytics
 - Top Products by Sales
 - Top Products by Profit
 - Product Sales Contribution
 - Product Performance Analysis
 
-### 3. Regional Analysis
+### 3️⃣ Regional Analysis
 - Sales by Region
 - Profit by Region
 - Quantity by Region
 - Regional Performance Summary
 
-### 4. Executive Insights & Recommendations
+### 4️⃣ Executive Insights & Recommendations
 - Business KPIs
 - Key Insights
 - Strategic Recommendations
 
-## Key Metrics
+---
+
+## 📊 Key Metrics
 
 - Total Sales
 - Total Profit
@@ -50,18 +98,51 @@ This project analyzes e-commerce sales data to identify business insights relate
 - Total Quantity Sold
 - Profit Margin %
 
-## Repository Structure
+---
 
-```
-data/
-sql/
-python/
-powerbi/
-images/
-README.md
-```
+## 📷 Dashboard Screenshots
 
-## Author
+### Dashboard Page 1
 
-**Saravanan**  
-B.Tech Artificial Intelligence & Data Science
+![Dashboard Page 1](images/dashboard_page1.png)
+
+### Dashboard Page 2
+
+![Dashboard Page 2](images/dashboard_page2.png)
+
+### Dashboard Page 3
+
+![Dashboard Page 3](images/dashboard_page3.png)
+
+### Dashboard Page 4
+
+![Dashboard Page 4](images/dashboard_page4.png)
+
+---
+
+## 📑 Files Included
+
+- SQL Queries
+- Python Analysis Script
+- Automated EDA Report
+- Power BI Dashboard (.pbix)
+- Raw Dataset
+- Cleaned Dataset
+
+---
+
+## ▶️ How to Run
+
+1. Import the dataset into MySQL.
+2. Execute the SQL queries.
+3. Run the Python analysis script.
+4. Generate the Sweetviz EDA report.
+5. Open the Power BI (.pbix) file.
+
+---
+
+## 👨‍💻 Author
+
+**Saravanan**
+
+B.Tech – Artificial Intelligence & Data Science
