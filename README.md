@@ -32,38 +32,33 @@ This project demonstrates the complete data analytics workflow:
 ## 📂 Repository Structure
 
 ```
-E-Commerce-Sales-Analytics-Dashboard
+E-Commerce-Sales-Analytics-Dashboard/
 │
-├── data
+├── README.md
+│
+├── data/
 │   ├── ecommerce_sales_data.csv
 │   └── ecommerce_sales_cleaned.csv
 │
-├── sql
-│   ├── analysis_queries.sql
-│   └── .gitkeep
+├── images/
+│   ├── page1_overview.png
+│   ├── page2_product_analysis.png
+│   ├── page3_regional_analysis.png
+│   └── page4_executive_insights.png
+│
+├── powerbi/
+│   └── Ecommerce_Sales_Analytics_Dashboard.pbix
 │
 ├── python/
 │   ├── data_analysis.py
 │   ├── auto_eda.py
 │   └── requirements.txt
-│   └── .gitkeep
 │
-├── powerbi
-│   ├── Ecommerce_Sales_Analytics_Dashboard.pbix
-│   └── .gitkeep
+├── reports/
+│   └── EDA_Report.html
 │
-├── reports
-│   ├── EDA_Report.html
-│   └── .gitkeep
-│
-├── images
-│   ├── page1_overview.png
-│   ├── page2_product_analysis.png
-│   ├── page3_regional_analysis.png
-│   ├── page4_executive_insights.png
-│   └── .gitkeep
-│
-└── README.md
+└── sql/
+    └── analysis_queries.sql
 ```
 
 ---
