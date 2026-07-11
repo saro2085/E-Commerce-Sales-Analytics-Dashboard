@@ -108,7 +108,7 @@ E-Commerce-Sales-Analytics-Dashboard
 
 ### Dashboard Page 2
 
-![Dashboard Page 2](images/page2_product_analytics.png)
+![Dashboard Page 2](images/page2_product_analysis.png)
 
 ### Dashboard Page 3
 
