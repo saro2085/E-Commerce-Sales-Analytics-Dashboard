@@ -9,9 +9,8 @@ import seaborn as sns
 # ----------------------------------------------------------
 
 engine = create_engine(
-    "mysql+pymysql://root:saro20@localhost/ecommerce"
+    "mysql+pymysql://username:password@localhost/ecommerce"
 )
-
 # ----------------------------------------------------------
 # LOAD DATA
 # ----------------------------------------------------------
