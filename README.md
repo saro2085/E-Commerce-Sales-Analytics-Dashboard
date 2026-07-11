@@ -42,9 +42,10 @@ E-Commerce-Sales-Analytics-Dashboard
 │   ├── analysis_queries.sql
 │   └── .gitkeep
 │
-├── python
-│   ├── eda.py
+├── python/
+│   ├── data_analysis.py
 │   ├── auto_eda.py
+│   └── requirements.txt
 │   └── .gitkeep
 │
 ├── powerbi
@@ -138,12 +139,17 @@ E-Commerce-Sales-Analytics-Dashboard
 
 ## ▶️ How to Run
 
-1. Import the dataset into MySQL.
-2. Execute the SQL queries.
-3. Run the Python analysis script.
-4. Generate the Sweetviz EDA report.
-5. Open the Power BI (.pbix) file.
+1. Import the e-commerce dataset into MySQL.
+2. Execute the SQL queries in `analysis_queries.sql`.
+3. Install the required Python libraries:
 
+```bash
+pip install -r python/requirements.txt
+```
+
+4. Run `python/data_analysis.py` for data preprocessing and analysis.
+5. Run `python/auto_eda.py` to generate the Sweetviz EDA report.
+6. Open `powerbi/Ecommerce_Sales_Analytics_Dashboard.pbix` in Power BI Desktop.
 ---
 
 ## 👨‍💻 Author
