@@ -104,19 +104,19 @@ E-Commerce-Sales-Analytics-Dashboard
 
 ### Dashboard Page 1
 
-![Dashboard Page 1](images/dashboard_page1.png)
+![Dashboard Page 1](images/page1_overview.png)
 
 ### Dashboard Page 2
 
-![Dashboard Page 2](images/dashboard_page2.png)
+![Dashboard Page 2](images/page2_product_analytics.png)
 
 ### Dashboard Page 3
 
-![Dashboard Page 3](images/dashboard_page3.png)
+![Dashboard Page 3](images/page3_regional_analysis.png)
 
 ### Dashboard Page 4
 
-![Dashboard Page 4](images/dashboard_page4.png)
+![Dashboard Page 4](images/page4_executive_insights.png)
 
 ---
 
